@@ -1,0 +1,20 @@
+[package]
+name = "panic-context"
+description = "Show manually-maintained context information on panic"
+version = "0.1.0"
+authors = ["Mikhail Trishchenkov <kriomant@gmail.com>"]
+homepage = "https://crates.io/crates/panic-context"
+repository = "https://github.com/kriomant/panic-context.git"
+readme = "README.md"
+keywords = ["panic", "log"]
+categories = ["development-tools::debugging"]
+license = "MIT"
+
+[dependencies]
+lazy_static = "^0.2.8"
+
+[dev-dependencies]
+gag = "^0.1.9"
+
+[features]
+keep-debug-context = []
